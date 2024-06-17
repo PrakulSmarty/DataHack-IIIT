@@ -1,12 +1,12 @@
 # Problem description
 Your goal is to predict how likely individuals are to receive their xyz and seasonal flu vaccines. Specifically, you'll be predicting two probabilities: one for xyz_vaccine and one for seasonal_vaccine.
-Labels
- 
+
+# Labels
 For this competition, there are two target variables:
 ●	xyz_vaccine - Whether respondent received xyz flu vaccine.
 ●	seasonal_vaccine - Whether respondent received seasonal flu vaccine. Both are binary variables: 0 = No; 1 = Yes. Some respondents didn't get either vaccine, others got only one, and some got both. This is formulated as a multilabel (and not multiclass) problem.
-The features in this dataset
- 
+
+# The features in this dataset
 You are provided a dataset with 36 columns. The first column respondent_id is a unique and random identifier. The remaining 35 features are described below.
 For all binary variables: 0 = No; 1 = Yes.
 ●	xyz_concern - Level of concern about the xyz flu.
